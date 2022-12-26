@@ -113,7 +113,20 @@
       <main>
         <!-- Album-convention -->
         <section class="container album-convention">
-        <h1 class="text-secondary text-center my-5 fw-bold">Our Album</h1>
+        <h1 class="text-secondary text-center my-3 fw-bold"></h1>
+        <div class="row"> 
+          <div class="col-md-12 text-center mb-3"> 
+            <button id="mytoast" class="btn btn-light fs-4 fw-bold text-secondary">Our Album</button>
+            <div class="toast show" id="toast"> 
+              <div class="toast-header">
+                <h6><span><i class="fa-solid fa-utensils"></i></span>Here is our convention center photo album</h6> 
+                <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+              </div>
+            </div>
+
+            
+          </div>
+        </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col-lg-3 col-md-6 col-sm-12">
           <div class="card h-100  border-0">
@@ -128,7 +141,7 @@
                   Adorable means lovable, sweet, and childlike.</p>
               </p>
             </div>
-            <div class="card-footer ps-5 border-0">
+            <div class="card-footer ps-5 border-0 bg-white">
               <a href="https://feelingsshare.com"  class="btn btn-primary py-2 px-5">More</a>
             </div>
           </div>
@@ -192,9 +205,9 @@
      <section class="our-package  container my-5"> 
       <h1 class="text-center fw-bold py-5">Our Package</h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
-      <div class="col-lg-3 col-md-6 col-sm-12 pt-5">
-        <div class="card h-100  border-0">
-          <div class="card-header  bg-white  border-0 pt-5">
+      <div class="col-lg-3 col-md-6 col-sm-12 1h-lg">
+        <div class="card h-100 border-0">
+          <div class="card-header  bg-white  border-0">
           <h2 class="fw-bold">$600</h2>
           </div>
           <div class="card-body">
@@ -214,9 +227,9 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
-        <div class="card h-100  border-0">
-          <div class="card-header bg-white border-0 mt-5">
+      <div class="col-lg-3 col-md-6 col-sm-12">
+        <div class="card h-100 border-0">
+          <div class="card-header bg-white border-0">
             <h2 class="fw-bold">$800</h2>
           </div>
           <div class="card-body">
@@ -237,9 +250,9 @@
       </div>
       
       <div class="col-lg-3 col-md-6 col-sm-12">
-      <div class="card h-100 bg-primary text-white silicon-card">
-      <div class="card-header">
-        <h2 class="fw-bold pt-5">$1200</h2>
+      <div class="card h-100 bg-primary text-white silicon-card  border-0">
+      <div class="card-header  border-0">
+        <h2 class="fw-bold ">$1200</h2>
       </div>
       <div class="card-body">
         <h3 class="card-title fw-bold">Business classic plus</h3>
@@ -252,16 +265,16 @@
         <li class="list-group-item  border-0"><span><i class="fa-solid fa-check"></i></span> fish and vegetable menu</li>
         <li class="list-group-item  border-0"><span><i class="fa-solid fa-check"></i></span> 3 hours parking facility</li>
       </ul>
-      <div class="card-footer py-4 ps-4  rounded-3">
+      <div class="card-footer py-4 ps-4 text-center rounded-3">
         <a href="#" class="btn bg-white py-2 px-5 text-secondary fw-bold  silicon-footer-button">Choose plan</a>
       </div>
       </div>
       </div>
       
       
-      <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+      <div class="col-lg-3 col-md-6 col-sm-12">
       <div class="card h-100 border-0">
-        <div class="card-header  bg-white  border-0  mt-5">
+        <div class="card-header  bg-white  border-0">
           <h2 class="fw-bold">$2000</h2>
         </div>
         <div class="card-body  border-0">
@@ -270,11 +283,11 @@
             class peoples in the society who are lead the people in different way.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item  border-0 1h-lg"><span><i class="fa-solid fa-check"></i></span> rent for convention hall for 12 hours</li>
-          <li class="list-group-item  border-0 1h-lg"><span><i class="fa-solid fa-check"></i></span> snake coffee, cake and biscuites</li>
-          <li class="list-group-item  border-0 1h-lg"><span><i class="fa-solid fa-check"></i></span> airconditioning</li>
-          <li class="list-group-item  border-0 1h-lg"><span><i class="fa-solid fa-check"></i></span> meat, fish and vegetable menu</li>
-          <li class="list-group-item  border-0 1h-lg"><span><i class="fa-solid fa-check"></i></span> 12 hours parking facility</li>
+          <li class="list-group-item  border-0"><span><i class="fa-solid fa-check"></i></span> rent for convention hall for 12 hours</li>
+          <li class="list-group-item  border-0"><span><i class="fa-solid fa-check"></i></span> snake coffee, cake and biscuites</li>
+          <li class="list-group-item  border-0"><span><i class="fa-solid fa-check"></i></span> airconditioning</li>
+          <li class="list-group-item  border-0"><span><i class="fa-solid fa-check"></i></span> meat, fish and vegetable menu</li>
+          <li class="list-group-item  border-0"><span><i class="fa-solid fa-check"></i></span> 12 hours parking facility</li>
         </ul>
         <div class="card-footer">
           <a href="#" class="btn bg-info py-2 px-5 text-white mt-4 fw-bold">Choose plan</a>
@@ -282,6 +295,75 @@
       </div>
       </div>
       </div>
+      </section>
+
+      <section class="General-Inquiries">
+        <h3 class="text-uppercase silicon-general-Inquiries">General Inquiries</h3>
+        <div class="container px-4">
+         
+          <div class="row gx-5">
+            <div class="col-lg-4 border-0">
+             <div class="p-3  bg-white"> 
+            
+             <h5 class="fw-bold">Contact Us</h5>
+             <p>1650 Argyle Street</p> 
+             <p> Halifax, NS  B3J 0E6</p>
+             <p> 1-902-421-1302</p>
+             <a href="">sales@halifaxconventioncentre.com</a> 
+              <h5 class="fw-bold">For Media Inquiries, Contact</h5>
+              <p>Erin Esiyok-Prime</p>
+              <p>1-902-421-1302 ext. 2791</p>
+              <a href="">erin@halifaxconventioncentre.com</a>
+             </div>
+            </div>
+            <div class="col-lg-8 border-0">
+              <div class="p-3  bg-white">
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <label for="inputName" class="form-label fw-bold">Name</label>
+                    <input type="text" class="form-control" id="inputText">
+                  </div>
+                  <div class="col-lg-6">
+                    <label for="inputEmail4" class="form-label fw-bold">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+
+                  <div class="col-lg-6">
+                    <label for="inputText" class="form-label fw-bold">Organization </label>
+                    <input type="text" class="form-control" id="inputText">
+                  </div>
+                  <div class="col-lg-6">
+                    <label for="inputNumber" class="form-label fw-bold">Phone Number</label>
+                    <input type="number" class="form-control" id="inputNumber">
+                  </div>
+                  <div class="col-lg-12">
+                    <label for="inputText" class="form-label fw-bold">Message</label>
+                   
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                  </div>
+                  <div class="col-lg-8 form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                    <label class="form-check-label" for="flexCheckChecked">
+                      Please add me to the Silicon Convention Centre newsletter for more information.
+                    </label>
+                  </div>
+                  <div class="col-lg-4 ps-5"> 
+                    <a href="#" class="btn btn-primary text-uppercase">Get in touch</a>
+                  </div>
+                  <div class="col-lg-12"> 
+                    <p>This site is protected by reCAPTCHA and the Google <a href="#">Privacy  Policy </a> and  
+                      <a href="#"> Terms of Service</a> apply</p>
+
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section> 
+        
       </section>
     </main>
         
