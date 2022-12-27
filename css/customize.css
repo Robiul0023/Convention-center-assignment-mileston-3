@@ -29,5 +29,14 @@
 }
 
 .silicon-img{
-    width:30px;
+    width:32px;
 }
+
+.silicon-border{
+    border-radius: 10px;
+}
+
+.silicon-row{
+    width:170px;
+}
+
